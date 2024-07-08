@@ -11,6 +11,17 @@
 		5A9D4D812C3AA32200996942 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D4D802C3AA32200996942 /* ContentView.swift */; };
 		5A9D4D832C3AA32600996942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D4D822C3AA32600996942 /* Assets.xcassets */; };
 		5A9D4D862C3AA32600996942 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D4D852C3AA32600996942 /* Preview Assets.xcassets */; };
+		5A9D4D8E2C3AA62200996942 /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D4D8D2C3AA62200996942 /* CharactersViewModel.swift */; };
+		5A9D4D902C3AA63500996942 /* CharactersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D4D8F2C3AA63500996942 /* CharactersPage.swift */; };
+		5A9D4D922C3AA6DB00996942 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D4D912C3AA6DB00996942 /* CharacterView.swift */; };
+		5A9D4D942C3AAD2400996942 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D4D932C3AAD2400996942 /* APIManager.swift */; };
+		5A9D4D972C3AADA700996942 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D4D962C3AADA700996942 /* CharacterData.swift */; };
+		5A9D4D992C3BC7A500996942 /* CharacterDetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D4D982C3BC7A500996942 /* CharacterDetailsPage.swift */; };
+		5A9D4D9C2C3BC9FB00996942 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5A9D4D9B2C3BC9FB00996942 /* SDWebImageSwiftUI */; };
+		5A9D4DA02C3BD3D400996942 /* CharacterDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D4D9F2C3BD3D400996942 /* CharacterDetailsViewModel.swift */; };
+		5A9D4DA22C3BECD500996942 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A9D4DA12C3BECD500996942 /* GoogleService-Info.plist */; };
+		5A9D4DDE2C3BF6FA00996942 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D4DDD2C3BF6FA00996942 /* ContentViewModel.swift */; };
+		5A9D4DE12C3C00A600996942 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 5A9D4DE02C3C00A600996942 /* FirebaseRemoteConfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,15 @@
 		5A9D4D802C3AA32200996942 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A9D4D822C3AA32600996942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A9D4D852C3AA32600996942 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A9D4D8D2C3AA62200996942 /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		5A9D4D8F2C3AA63500996942 /* CharactersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersPage.swift; sourceTree = "<group>"; };
+		5A9D4D912C3AA6DB00996942 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		5A9D4D932C3AAD2400996942 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		5A9D4D962C3AADA700996942 /* CharacterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
+		5A9D4D982C3BC7A500996942 /* CharacterDetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsPage.swift; sourceTree = "<group>"; };
+		5A9D4D9F2C3BD3D400996942 /* CharacterDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsViewModel.swift; sourceTree = "<group>"; };
+		5A9D4DA12C3BECD500996942 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5A9D4DDD2C3BF6FA00996942 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9D4D9C2C3BC9FB00996942 /* SDWebImageSwiftUI in Frameworks */,
+				5A9D4DE12C3C00A600996942 /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +73,11 @@
 		5A9D4D7D2C3AA32200996942 /* Rick&Morty */ = {
 			isa = PBXGroup;
 			children = (
+				5A9D4DA12C3BECD500996942 /* GoogleService-Info.plist */,
 				5A9D4D7E2C3AA32200996942 /* Rick_MortyApp.swift */,
-				5A9D4D802C3AA32200996942 /* ContentView.swift */,
+				5A9D4D932C3AAD2400996942 /* APIManager.swift */,
+				5A9D4D9E2C3BD38800996942 /* Views */,
+				5A9D4D952C3AAD8E00996942 /* Models */,
 				5A9D4D822C3AA32600996942 /* Assets.xcassets */,
 				5A9D4D842C3AA32600996942 /* Preview Content */,
 			);
@@ -65,6 +90,52 @@
 				5A9D4D852C3AA32600996942 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A9D4D8C2C3AA60C00996942 /* CharactersPage */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D4D8D2C3AA62200996942 /* CharactersViewModel.swift */,
+				5A9D4D8F2C3AA63500996942 /* CharactersPage.swift */,
+				5A9D4D912C3AA6DB00996942 /* CharacterView.swift */,
+			);
+			path = CharactersPage;
+			sourceTree = "<group>";
+		};
+		5A9D4D952C3AAD8E00996942 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D4D962C3AADA700996942 /* CharacterData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A9D4D9D2C3BD36D00996942 /* CharacterDetailsPage */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D4D982C3BC7A500996942 /* CharacterDetailsPage.swift */,
+				5A9D4D9F2C3BD3D400996942 /* CharacterDetailsViewModel.swift */,
+			);
+			path = CharacterDetailsPage;
+			sourceTree = "<group>";
+		};
+		5A9D4D9E2C3BD38800996942 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D4DE22C3C012E00996942 /* Content */,
+				5A9D4D9D2C3BD36D00996942 /* CharacterDetailsPage */,
+				5A9D4D8C2C3AA60C00996942 /* CharactersPage */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A9D4DE22C3C012E00996942 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A9D4D802C3AA32200996942 /* ContentView.swift */,
+				5A9D4DDD2C3BF6FA00996942 /* ContentViewModel.swift */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +154,10 @@
 			dependencies = (
 			);
 			name = "Rick&Morty";
+			packageProductDependencies = (
+				5A9D4D9B2C3BC9FB00996942 /* SDWebImageSwiftUI */,
+				5A9D4DE02C3C00A600996942 /* FirebaseRemoteConfig */,
+			);
 			productName = "Rick&Morty";
 			productReference = 5A9D4D7B2C3AA32200996942 /* Rick&Morty.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +186,10 @@
 				Base,
 			);
 			mainGroup = 5A9D4D722C3AA32200996942;
+			packageReferences = (
+				5A9D4D9A2C3BC9FB00996942 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				5A9D4DDF2C3C00A600996942 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 5A9D4D7C2C3AA32200996942 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +206,7 @@
 			files = (
 				5A9D4D862C3AA32600996942 /* Preview Assets.xcassets in Resources */,
 				5A9D4D832C3AA32600996942 /* Assets.xcassets in Resources */,
+				5A9D4DA22C3BECD500996942 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +217,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9D4D972C3AADA700996942 /* CharacterData.swift in Sources */,
+				5A9D4D942C3AAD2400996942 /* APIManager.swift in Sources */,
+				5A9D4DA02C3BD3D400996942 /* CharacterDetailsViewModel.swift in Sources */,
+				5A9D4D902C3AA63500996942 /* CharactersPage.swift in Sources */,
+				5A9D4DDE2C3BF6FA00996942 /* ContentViewModel.swift in Sources */,
+				5A9D4D992C3BC7A500996942 /* CharacterDetailsPage.swift in Sources */,
+				5A9D4D8E2C3AA62200996942 /* CharactersViewModel.swift in Sources */,
+				5A9D4D922C3AA6DB00996942 /* CharacterView.swift in Sources */,
 				5A9D4D812C3AA32200996942 /* ContentView.swift in Sources */,
 				5A9D4D7F2C3AA32200996942 /* Rick_MortyApp.swift in Sources */,
 			);
@@ -275,6 +363,7 @@
 				DEVELOPMENT_TEAM = BKNZ54W4AA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rick&Morty";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +393,7 @@
 				DEVELOPMENT_TEAM = BKNZ54W4AA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rick&Morty";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +434,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A9D4D9A2C3BC9FB00996942 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+		5A9D4DDF2C3C00A600996942 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A9D4D9B2C3BC9FB00996942 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A9D4D9A2C3BC9FB00996942 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		5A9D4DE02C3C00A600996942 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A9D4DDF2C3C00A600996942 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A9D4D732C3AA32200996942 /* Project object */;
 }
